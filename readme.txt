@@ -26,3 +26,6 @@ https://mp.weixin.qq.com/s/jVUrqO-RGkxdY-EANKJF8Q
 
 二、解决办法：
     在JS中注册触发事件。
+
+
+https://github.com/camwiegert/typical 动画打字
