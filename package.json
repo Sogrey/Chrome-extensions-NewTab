@@ -1,0 +1,24 @@
+{
+  "name": "chrome-extensions-newtab",
+  "version": "1.0.0",
+  "description": "Chrome插件NewTab",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/Chrome-extensions-NewTab.git"
+  },
+  "keywords": [
+    "Chrome",
+    "Extensions",
+    "Newtab"
+  ],
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/Chrome-extensions-NewTab/issues"
+  },
+  "homepage": "https://github.com/Sogrey/Chrome-extensions-NewTab#readme"
+}
