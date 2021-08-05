@@ -1,15 +1,8 @@
 {
-<<<<<<< HEAD
     "name": "New-Tab", 
     "version": "0.0.1", 
     "manifest_version": 2, 
     "description":"Chrome Extension Demo",    
-=======
-    "name": "Hello World Extension",
-    "version": "0.0.1",
-    "manifest_version": 2,
-    "description": "Chrome Extension Demo",
->>>>>>> 5f5a09d0a555c2b92017a3563aba8660e2cb045d
     "background": {
         "scripts": ["background.js"],
         "persistent": false
@@ -23,10 +16,6 @@
         "default_popup": "popup.html"
     },
     "options_page": "options.html",
-    // "content_scripts": [{
-    //     "matches": [],
-    //     "js": []
-    // }],
     "permissions": [
         "storage",
         "notifications",
