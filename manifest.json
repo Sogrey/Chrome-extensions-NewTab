@@ -1,8 +1,8 @@
 {
-    "name": "Hello World Extension", 
-    "version": "0.0.1", 
-    "manifest_version": 2, 
-    "description":"Chrome Extension Demo",    
+    "name": "Hello World Extension",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Chrome Extension Demo",
     "background": {
         "scripts": ["background.js"],
         "persistent": false
@@ -10,17 +10,20 @@
     "chrome_url_overrides": {
         "newtab": "tab.html"
     },
-    "browser_action":{
-        "default_icon":"imgs/icons/Sogrey.png",
-        "default_title":"My Demo",
-        "default_popup":"popup.html"
+    "browser_action": {
+        "default_icon": "imgs/icons/Sogrey.png",
+        "default_title": "My Demo",
+        "default_popup": "popup.html"
     },
-    "options_page":"options.html",
-    "permissions":[
+    "options_page": "options.html",
+    // "content_scripts": [{
+    //     "matches": [],
+    //     "js": []
+    // }],
+    "permissions": [
         "storage",
         "notifications",
         "contextMenus",
         "tabs"
     ]
 }
-
