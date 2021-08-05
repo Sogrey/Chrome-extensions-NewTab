@@ -1,2 +1,2 @@
-# Chrome-extensions-NewTab
+# Chrome-Extensions-NewTab
 Chrome插件NewTab
